@@ -189,29 +189,13 @@ input[type="submit"]:hover {
 }
 @media (max-width:640px){
 	body {
-	  min-height: 70em;
-	}
-	.remember {
-		width: 63%;
-		padding: 3em 0 0 10em;
-	}
-	.copy-right p {
-		padding: 7em 0;
-	}
-}
-@media (max-width:480px){
-	body {
 		background:url("../images/bg1.jpg") no-repeat 0px 0px; 
 		font-family: 'Roboto', sans-serif;
 		background-size:cover;
 		-webkit-background-size:cover;
 		-o-background-size:cover;
 		-moz-background-size:cover;
-		min-height: 40em;
-	}
-	h1 {
-	  font-size: 2.4em;
-	  padding-top: 4em;
+	  	min-height: 70em;
 	}
 	.login-box {
 		width: 400px;
@@ -226,6 +210,37 @@ input[type="submit"]:hover {
 	  width: 245px;
 	  padding: 20px 0px 15px 0px;
 	  margin: 33px 0px 0px 105px;
+	}
+	.remember {
+		width: 63%;
+		padding: 3em 0 0 10em;
+	}
+	.copy-right p {
+		padding: 7em 0;
+	}
+}
+@media (max-width:480px){
+	body {
+		min-height: 40em;
+	}
+	h1 {
+	  font-size: 2.4em;
+	  padding-top: 4em;
+	}
+	.login-box {
+	  width: 349px;
+	  padding: 1.5em 0.3em 0em 0;
+	background-size: 100%;
+	}
+	input[type="text"] {
+	  width: 191px;
+	  padding: 6px 0px 23px 0px;
+	  font-size: 1.3em;
+	}
+	input[type="text1"] {
+	  width: 190px;
+	  padding: 20px 0px 15px 0px;
+	  margin: 6px 0px 0px 98px;
 	}
 	.remember {
 		  width: 83%;
