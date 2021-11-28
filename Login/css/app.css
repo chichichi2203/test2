@@ -166,6 +166,10 @@ input[type="submit"]:hover {
 	body {
 	  min-height: 500px;
 	}
+	input[type="submit"] {
+	  font-size: 32px;
+ 	}
+	
 	.btn {
 	  margin: 9% auto 0;
 	}
@@ -174,6 +178,9 @@ input[type="submit"]:hover {
 	body {
 	  min-height: 100em;
 	}
+	input[type="submit"] {
+	  font-size: 30px;
+ 	}
 	.remember {
 	 	 width: 60%;
 	}
@@ -215,6 +222,9 @@ input[type="submit"]:hover {
 		width: 63%;
 		padding: 3em 0 0 10em;
 	}
+	input[type="submit"] {
+	  font-size: 28px;
+ 	}
 	.copy-right p {
 		padding: 7em 0;
 	}
@@ -235,12 +245,13 @@ input[type="submit"]:hover {
 	input[type="text"] {
 	  width: 191px;
 	  padding: 6px 0px 23px 0px;
-	  font-size: 1.3em;
+	  font-size: 1.2em;
 	}
 	input[type="text1"] {
 	  width: 190px;
 	  padding: 20px 0px 15px 0px;
-	  margin: 6px 0px 0px 98px;
+	  margin: 9px 0px 0px 98px;
+		font-size: 1.2em;
 	}
 	.remember {
 		  width: 83%;
@@ -252,27 +263,31 @@ input[type="submit"]:hover {
 	.remember h4 {
 		font-size: 14px;
 	}
+	input[type="submit"] {
+	  font-size: 24px;
+ 	}
 	.copy-right p {
 		padding: 7em 0;
 	}
 }
 @media (max-width:375px){
 	body {
-	  min-height: 45em;
+	  min-height: 40em;
 	}
 	.login-box {
-	  width: 349px;
+	  width: 300px;
 	  padding: 1.5em 0.3em 0em 0;
 	}
 	input[type="text"] {
-	  width: 191px;
+	  width: 150px;
 	  padding: 6px 0px 23px 0px;
-	  font-size: 1.3em;
+	  font-size: 0.97em;
 	}
 	input[type="text1"] {
-	  width: 190px;
+	  width: 150px;
 	  padding: 20px 0px 15px 0px;
-	  margin: 6px 0px 0px 98px;
+	  margin: 6px 0px 0px 90px;
+	 font-size: 0.97em;
 	}
 	.remember {
 	  width: 97%;
@@ -281,6 +296,9 @@ input[type="submit"]:hover {
 	.copy-right p {
 	  padding: 9em 0 2em;
 	}
+	input[type="submit"] {
+	  font-size: 16px;
+ 	}
 	h1 {
 	  font-size: 2em;
 	    padding-top: 3em;
@@ -289,10 +307,10 @@ input[type="submit"]:hover {
 }
 @media (max-width:320px){
 	body {
-	  min-height: 40em;
+	  min-height: 30em;
 	}
 	.login-box {
-		  width: 247px;
+		  width: 240px;
 		  padding: 1em .6em .3em .6em;
 		  background-size: 100%;
 		  height: 99px;
@@ -302,16 +320,13 @@ input[type="submit"]:hover {
 		  width: 135px;
 		  margin: 0px 0px 0px 44px;
 		  padding: 4px 0px 5px 0px;
-		  font-size: 16px;
+		  font-size: 14px;
 	}
 	input[type="text1"] {
 		  width: 140px;
 		  padding: 29px 0px 0px 0px;
 		  margin: 8px 0px 0px 67px;
-		  font-size: 16px; 
-	}
-	form {
-		padding-top: 0;
+		  font-size: 14px; 
 	}
 	.remember {
 		  width: 100%;
@@ -324,8 +339,8 @@ input[type="submit"]:hover {
 		font-size: 13px;
 	}
 	.btn {
-		  margin: 0 auto;
-		  padding: 0;
+		  margin: 30px 0px 0px 70px;
+		  padding: 0px 0px 0px 0px;
 		  text-align: center;
 		  float: none;
 	}
