@@ -28,13 +28,14 @@ body{
  	-webkit-background-size:cover;
 	-o-background-size:cover;
 	-moz-background-size:cover;
+	background-position-x: -2.5px;
 }
 h1 {
   text-align: center;
   color: #ffffff;
   font-weight: 400;
   font-size: 3em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 h1 span{
 	font-weight:100;
@@ -45,7 +46,7 @@ h1 span{
 	width: 510px;
 	height: 177px;
 	padding: 3em;
-	margin: 3em auto 0 auto;
+	margin: 1em auto 0 auto;
 	}
 form li{
 	list-style: none;
