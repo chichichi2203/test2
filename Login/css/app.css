@@ -45,7 +45,7 @@ h1 span{
 	width: 510px;
 	height: 177px;
 	padding: 3em;
-	  margin: 3em auto 0 auto;
+	margin: 3em auto 0 auto;
 	}
 form li{
 	list-style: none;
@@ -201,7 +201,8 @@ input[type="submit"]:hover {
 }
 @media (max-width:480px){
 	body {
-	  min-height: 60em;
+	  background-position-x: -25em;
+	  min-height: 55em;
 	}
 	h1 {
 	  font-size: 2.4em;
@@ -237,7 +238,7 @@ input[type="submit"]:hover {
 }
 @media (max-width:375px){
 	body {
-	  min-height: 50em;
+	  min-height: 45em;
 	}
 	.login-box {
 	  width: 349px;
