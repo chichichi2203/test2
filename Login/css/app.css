@@ -172,7 +172,7 @@ input[type="submit"]:hover {
 }
 @media (max-width:768px){
 	body {
-	  min-height: 50em;
+	  min-height: 100em;
 	}
 	.remember {
 	 	 width: 60%;
@@ -189,7 +189,7 @@ input[type="submit"]:hover {
 }
 @media (max-width:640px){
 	body {
-	  min-height: 50em;
+	  min-height: 80em;
 	}
 	.remember {
 		width: 63%;
@@ -201,7 +201,7 @@ input[type="submit"]:hover {
 }
 @media (max-width:480px){
 	body {
-	  min-height: 50em;
+	  min-height: 60em;
 	}
 	h1 {
 	  font-size: 2.4em;
@@ -237,7 +237,7 @@ input[type="submit"]:hover {
 }
 @media (max-width:375px){
 	body {
-	  min-height: 40em;
+	  min-height: 50em;
 	}
 	.login-box {
 	  width: 349px;
